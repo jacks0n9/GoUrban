@@ -1,4 +1,4 @@
-module github.com/jacks0n9/gourban
+module github.com/jacks0n9/GoUrban
 
 go 1.16
 
