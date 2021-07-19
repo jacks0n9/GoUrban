@@ -21,7 +21,7 @@ type Definition struct {
 	Example   string   `json:"example"`
 }
 
-func define(term string) Definitions {
+func Define(term string) Definitions {
 	resp, err := http.Get("https://api.urbandictionary.com/v0/define?term=" + term)
 	body, _ := io.ReadAll(resp.Body)
 	if err != nil {
